@@ -7,6 +7,7 @@ parallaxBG.init = function(elements, speed) {
         elements[i].style.backgroundPositionY = "50%";
     }
     window.addEventListener("scroll", parallaxBG.do);
+    parallaxBG.do();
 };
 
 parallaxBG.do = function() {
